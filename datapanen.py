@@ -65,6 +65,9 @@ for x,y in data_panen.items():
     hasil_panen_padi[x] = y['hasil_panen']['padi']
     hasil_panen_kedelai[x] = y['hasil_panen']['kedelai']
 
+print("\nPadi", {hasil_panen_padi})
+print("Kedelai", {hasil_panen_kedelai})
+
 for x,y in data_panen.items():
     padi = y['hasil_panen']['padi']
     jagung = y['hasil_panen']['jagung']
